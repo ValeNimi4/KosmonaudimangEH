@@ -1,7 +1,7 @@
 import pygame, sys, random
 pygame.init()
 pygame.mixer.music.load("muusika.mp3")
-#pygame.mixer.music.play(-1)
+pygame.mixer.music.play(-1)
 font = pygame.font.Font(None,25)             
 a = pygame.display.set_mode((400,250))
 k = pygame.image.load("kosmonaut.png")
